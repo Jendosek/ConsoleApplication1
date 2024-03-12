@@ -4,10 +4,27 @@
     <Filter Include="main">
       <UniqueIdentifier>{c93a9f80-7b9a-45d4-968c-c8b540445c42}</UniqueIdentifier>
     </Filter>
+    <Filter Include="user">
+      <UniqueIdentifier>{e68234f0-6aff-4fb3-b98a-409d8e234250}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="library">
+      <UniqueIdentifier>{9dc4d16d-44dc-4163-8dd0-7bb81df4d547}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>main</Filter>
     </ClCompile>
+    <ClCompile Include="user.cpp">
+      <Filter>user</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="user.h">
+      <Filter>user</Filter>
+    </ClInclude>
+    <ClInclude Include="library.h">
+      <Filter>library</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
